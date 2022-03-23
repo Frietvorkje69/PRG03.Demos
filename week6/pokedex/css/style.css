@@ -1,8 +1,12 @@
 @font-face {
-    font-family: PokemonPixel;
-    src: url(../font/PokemonPixel.ttf);
+    font-family: PublicPixel;
+    src: url(../font/PublicPixel.ttf);
 }
 
+@font-face {
+font-family: PixeloidSans;
+src: url(../font/PixeloidSans.ttf);
+}
 body {
 background-image: url("../img/background.png");
     margin: 0;
@@ -10,7 +14,7 @@ background-image: url("../img/background.png");
 }
 
 header {
-    font-family: 'PokemonPixel', sans-serif;
+    font-family: 'PublicPixel', sans-serif;
     font-size: 4.5em;
     color: white;
     -webkit-text-stroke-width: 2px;
@@ -49,6 +53,7 @@ header {
 }
 
 .pokemon-card h2 {
+    font-family: 'PixeloidSans', sans-serif;
     font-size: 18px;
     margin-bottom: 0.5rem;
 }
