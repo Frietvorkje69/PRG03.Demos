@@ -8,7 +8,7 @@ font-family: PixeloidSans;
 src: url(../font/PixeloidSans.ttf);
 }
 body {
-background-image: url("../img/background.png");
+background-image: url("../img/background.jpg");
     margin: 0;
     padding: 0;
 }
